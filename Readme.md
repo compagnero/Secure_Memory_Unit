@@ -1,4 +1,4 @@
-# Projektbericht    
+# Secure Memory Unit 
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -12,18 +12,6 @@ In diesem Projekt geht es um die Secure Memory Unit, welche die folgenden Aufgab
 -Speichert Daten verschlüsselt ab.
 -Verwendet Address-Scrambling, um Angriffe abzuwehren.
 -Prüft die Korrektheit von gespeicherten Daten. 
-
-## Work Flow
-
-### Grundlegende Implementation:
--address_scrambler + prng: Vuslat
--encrypt_decrypt: Ahmed
--parity_checker: Aziz
--secure_memory_unit: Ahmed + Vuslat
--run_simulation + rahmenprogramm: Aziz
-
-### Testing und Korrektion:
-Alle zusammen durch Kommunikation und Briefings.
 
 ## Dokumentation
 
