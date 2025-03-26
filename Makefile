@@ -17,7 +17,8 @@ HEADERS := include/secure_memory_unit.hpp include/run_simulation.hpp
 TARGET := project
 
 # Path to your systemc installation
-SCPATH = /home/azizs/systemC_GRA/systemc
+SCPATH = $(SYSTEMC_HOME)
+
 
 # Additional flags for the compiler
 CXXFLAGS := -std=c++14  -I$(SCPATH)/include -L$(SCPATH)/lib -lsystemc -lm
